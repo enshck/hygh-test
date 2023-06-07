@@ -4,6 +4,10 @@ import React from 'react';
 
 import './preview-styles.css'
 
+const { worker } = require('../src/mocks/browser')
+
+worker.start()
+
 
 /** @type { import('@storybook/react').Preview } */
 const preview = {

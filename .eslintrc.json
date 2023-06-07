@@ -61,6 +61,8 @@
       }
     ],
     "react-hooks/exhaustive-deps": "off",
+    "@typescript-eslint/no-unsafe-assignment": "off",
+    "@typescript-eslint/no-unsafe-member-access": "off",
     "object-shorthand": "error",
     "no-console": "warn"
   }
